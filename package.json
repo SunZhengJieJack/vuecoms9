@@ -1,0 +1,26 @@
+{
+  "name": "vuecoms9",
+  "version": "0.1.0",
+  "private": false,
+  "main": "lib/vuecoms9.min.js",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "dev": "vue-cli-service serve --open",
+    "build": "vue-cli-service build",
+    "lib": "vue-cli-service build --target lib --name vuecoms9 --dest lib packages/index.js"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "vue": "^2.6.11",
+    "vue-router": "^3.2.0",
+    "vuex": "^3.4.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.4.0",
+    "@vue/cli-service": "^4.4.0",
+    "compression-webpack-plugin": "^4.0.1",
+    "less": "^3.0.4",
+    "less-loader": "^5.0.0",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
